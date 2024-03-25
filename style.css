@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    background-color: black;
+    margin-bottom: 300px;
+}
+
+.start-screen-container {
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-screen {
+    background-image: url('./img/9_intro_outro_screens/start/startscreen_2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 720px;
+    z-index: 2;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.start-button {
+    background-color: #f5f5f5;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
